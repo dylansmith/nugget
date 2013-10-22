@@ -1,0 +1,47 @@
+{
+  "name": "nugget",
+  "description": "A simple entity system implementation in CoffeeScript",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dylansmith/nugget-commonjs",
+  "bugs": {
+    "url" : "https://github.com/dylansmith/nugget-commonjs/issues",
+    "email" : "dylansmith@gmail.com"
+  },
+  "author": {
+    "name": "Dylan Smith",
+    "email": "dylansmith@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dylansmith/nugget-commonjs"
+  },
+  "bugs": {
+    "url": "https://github.com/dylansmith/nugget-commonjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dylansmith/nugget-commonjs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/nugget",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1"
+  },
+  "keywords": []
+}
